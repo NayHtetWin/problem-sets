@@ -6,7 +6,7 @@ function countOdds($low, $high) {
 	    return ($count+1)/2;
 	}
 	else{
-	    return ($low%2) ? ($count+2)/2 : ($count+1)/2;
+	    return ($low%2) ? ($count+2)/2 : $count/2;
 	}
 }
 
